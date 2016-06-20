@@ -1,3 +1,4 @@
 # Default is "World"
 name = ARGV.first || "World"
-puts "Hello, #{name}!"
+greetr = Greetr.new(name)
+puts greeter.greet
